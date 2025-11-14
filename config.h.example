@@ -1,0 +1,16 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// wifi credentials
+const char *ssid = "wifi_ssid";
+const char *password = "wifi_password";
+
+// mqtt broker settings
+const char *mqtt_server = "mqtt_broker_url.hivemq.cloud";
+const int mqtt_port = 8883;
+const char *mqtt_user = "mqtt_username";
+const char *mqtt_pass = "mqtt_password";
+
+const char *deviceId = "esp8266_001";
+
+#endif
