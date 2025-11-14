@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-11-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "MQTT_HOST": "",
+    "MQTT_PORT": "",
+    "MQTT_USERNAME": "",
+    "MQTT_PASSWORD": "",
+    "DEVICE_ID": "",
+  },
+}
